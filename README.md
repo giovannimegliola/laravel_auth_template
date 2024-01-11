@@ -162,7 +162,7 @@ php artisan make:controller NomeController --resource
 #creo model
 php artisan make:model Nome 
 #posso creare il model e contestualmente resource controller, migration, seeder e form request per validazioni
-php artisan make:model Nome -rcms --request
+php artisan make:model Nome -rcms --requests
 
 # creo le views relative
 
